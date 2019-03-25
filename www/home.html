@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<title>FP学習サイトHOME</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" href="./Responsive Fixed Off-canvas Menu.css">
+</head>
+
+<body>
+<nav class="nav is-fixed" role="navigation">
+  <div class="wrapper wrapper-flush">
+    <button class="nav-toggle">
+    <div class="icon-menu"> <span class="line line-1"></span> <span class="line line-2"></span> <span class="line line-3"></span> </div>
+    </button>
+    <div class="nav-container">
+      <ul class="nav-menu menu">
+        <li class="menu-item has-dropdown"> <a href="#!" class="menu-link">ユーザー</a>
+          <ul class="nav-dropdown menu">
+            <li class="menu-item"> <a href="#!" class="menu-link">個人の成績</a> </li>
+            <li class="menu-item has-dropdown"> <a href="#!" class="menu-link">誤答問題</a>
+            </li>
+            <li class="menu-item"> <a href="../logout.php" class="menu-link">ログアウト</a> </li>
+          </ul>
+        </li>
+         <li class="menu-item"> <a href="home.html" class="menu-link">HOME</a> </li>
+        <li class="menu-item"> <a href="quiz.html" class="menu-link">過去問題</a> </li>
+        <li class="menu-item"> <a href="#!" class="menu-link">FP3級について</a> </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<p class="img_center">
+<img src="img/homelogo.png" alt="FP3ロゴ" width="1000" height="100"/>
+</p>
+
+
+<!--googleのCDN（ネットワーク経由でコンテンツを提供するサービス）よりjqueryをロード--> 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> 
+<!--外部化したjsファイル--> 
+<script src="./Responsive Fixed Off-canvas Menu.js"></script>
+</body>
+</html>
